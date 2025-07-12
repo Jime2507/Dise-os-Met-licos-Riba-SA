@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diseños Metálicos Riba SA</title>
+  <link rel="stylesheet" href="StyleIndex.css" />
+ <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>Diseños Metálicos Riba SA</h1>
+  </header>
+
+  <!-- Pantalla inicial -->
+  <section id="pantalla-inicial" class="pantalla-inicial">
+    <img src="imagenes/logo.png" alt="Logo Diseños Metálicos Riba SA" class="logo-inicial" />
+    <p>Especialistas en diseño y fabricación metálica</p>
+    <button class="boton-entrar" onclick="mostrarCatalogo()">Entrar al catálogo</button>
+  </section>
+
+  <!-- Catálogo -->
+  <section id="catalogo" class="catalogo">
+    <button class="boton-regresar" onclick="mostrarInicio()">← Volver a inicio</button>
+    <h2>Catálogo de Productos</h2>
+
+    <div class="botones-categorias">
+      <button onclick="mostrarCategoria('h1')">H1 y Staria</button>
+      <button onclick="mostrarCategoria('hiace')">Toyota Hiace</button>
+      <button onclick="mostrarCategoria('hyundai')">Hyundai County / Toyota Coaster</button>
+      <button onclick="mostrarCategoria('bumpers')">Bumpers</button>
+      <button onclick="mostrarCategoria('montero sport')">Montero Sport</button>
+      <button onclick="mostrarCategoria('paneles y chinas')">Paneles y Chinas</button>
+    </div>
+
+    <div id="h1" class="categoria">
+      <h3>H1 y Staria</h3>
+      <div class="producto"><img src="imagenes/CH11.png" alt="Canasta H1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/CH12.png" alt="Canasta H1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/CH14.png" alt="Canasta H1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/CH15.png" alt="Canasta H1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/CH16.png" alt="Canasta H1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/CH17.png" alt="Canasta H1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/CH18.png" alt="Canasta H1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/CH19.png" alt="Canasta H1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/CH110.png" alt="Canasta H1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/CH11.png" alt="Canasta H1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/CH112.png" alt="Canasta H1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+    </div>
+
+    <div id="hiace" class="categoria">
+      <h3>Toyota Hiace / Toyota Coaster</h3>
+      <div class="producto"><img src="imagenes/TH1.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH2.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH3.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH4.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH5.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH6.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH7.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH8.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH9.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH10.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH11.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH12.png" alt="hiace1" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH13.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH14.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH15.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH16.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH17.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH18.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH19.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH20.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/TH21.png" alt="hiace" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+    </div>
+
+    <div id="hyundai" class="categoria">
+      <h3>Hyundai County</h3>
+      <div class="producto"><img src="imagenes/C1.png" alt="hyundai" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/C2.png" alt="hyundai" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/C3.png" alt="hyundai" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/C4.png" alt="hyundai" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/C5.png" alt="hyundai" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/C6.png" alt="hyundai" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/C7.png" alt="hyundai" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/C8.png" alt="hyundai" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/C9.png" alt="hyundai" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/C10.png" alt="hyundai" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+    </div>
+
+    <div id="bumpers" class="categoria">
+      <h3>Bumpers</h3>
+       <div class="producto"><img src="imagenes/B1.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B2.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B3.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B4.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B5.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B6.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B7.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B8.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B9.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B10.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B11.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B12.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B13.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B14.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B15.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B16.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B17.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B18.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B19.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B20.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B21.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B22.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B23.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B24.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B25.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B26.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B27.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B28.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B29.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B30.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B31.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B32.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B33.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B34.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B35.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B36.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B37.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B38.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/B39.png" alt="bumpers" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+    </div>
+    </div>
+   
+    <div id="montero sport" class="categoria">
+      <h3>Montero Sport</h3>
+      <div class="producto"><img src="imagenes/M1.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M2.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M3.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M4.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M5.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M6.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M7.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M8.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M9.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M10.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M11.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M12.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M13.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M14.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M15.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M16.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M17.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M18.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M19.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M20.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M21.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M22.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M23.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M24.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M25.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M26.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M27.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M28.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M29.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/M30.png" alt="montero sport" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      
+    </div>
+    
+    <div id="paneles y chinas" class="categoria">
+      <h3>Paneles y Chinas</h3>
+      <div class="producto"><img src="imagenes/P1.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P2.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P3.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P4.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P5.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P6.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P7.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P8.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P9.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P10.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P11.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P12.pngg" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P13.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P14.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P15.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P16.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P17.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P18.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P19.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P20.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P21.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P22.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P23.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P24.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P25.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P26.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P27.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P28.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P29.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P30.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P31.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P32.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P33.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P34.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P35.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P36.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+     <div class="producto"><img src="imagenes/P26.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P27.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P28.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P29.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P30.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P31.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P32.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P33.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P34.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P26.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P35.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P36.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P37.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P38.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P39.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P40.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P41.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P42.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P43.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P44.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P45.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P46.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P47.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P48.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P49.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P50.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P51.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P52.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P53.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P54.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P55.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P56.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P57.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P58.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P59.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P60.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P61.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P62.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P63.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P64.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P65.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P66.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P67.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P68.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P69.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P70.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+      <div class="producto"><img src="imagenes/P71.png" alt="paneles y chinas" onclick="ampliarImagen(this.src)" style="cursor: zoom-in;"></div>
+    </div>
+
+
+<!-- Contacto -->
+<section id="contacto" class="contacto">
+  <h2>Contacto</h2>
+
+  <p>
+    <i class="fas fa-envelope" style="color:#333; margin-right:8px;"></i>
+    <a href="mailto:yenbarrantes38456@gmail.com">yenbarrantes38456@gmail.com</a>
+  </p>
+
+  <p>
+    <i class="fab fa-whatsapp" style="color:#25D366; margin-right:8px;"></i>
+    <a href="https://wa.me/50683361323" target="_blank" rel="noopener noreferrer">William Arrieta: 8336-1323</a> /
+    <a href="https://wa.me/50686640191" target="_blank" rel="noopener noreferrer">Yenson Riba: 8664-0191</a>
+  </p>
+
+  <p>
+    <i class="fab fa-facebook" style="color:#3b5998; margin-right:8px;"></i>
+    <a href="https://www.facebook.com/ribabumpersycanastas/about" target="_blank" rel="noopener noreferrer">
+      Diseños Metálicos Riba SA
+    </a>
+  </p>
+
+  <p>
+    <i class="fas fa-map-marker-alt" style="color:#c0392b; margin-right:8px;"></i>
+    300 metros oeste de la plaza de deportes, Puente de Piedra, Grecia
+  </p>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Diseños Metálicos Riba SA - Todos los derechos reservados</p>
+  </footer>
+
+<!-- Lightbox con botón cerrar -->
+<div id="lightbox" class="lightbox">
+  <span class="cerrar-lightbox" onclick="cerrarLightbox()">✖</span>
+  <img id="imagen-ampliada" src="" alt="Imagen Ampliada" />
+</div>
+
+
+  <script>
+    function mostrarCategoria(id) {
+      const categorias = document.querySelectorAll('.categoria');
+      categorias.forEach(c => c.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+
+    function mostrarCatalogo() {
+      document.getElementById('pantalla-inicial').style.display = 'none';
+      document.getElementById('catalogo').style.display = 'block';
+      document.getElementById('contacto').style.display = 'block';
+      document.querySelector('footer').style.display = 'block';
+    }
+
+    function mostrarInicio() {
+      document.getElementById('pantalla-inicial').style.display = 'flex';
+      document.getElementById('catalogo').style.display = 'none';
+      document.getElementById('contacto').style.display = 'none';
+      document.querySelector('footer').style.display = 'none';
+
+      const categorias = document.querySelectorAll('.categoria');
+      categorias.forEach(c => c.classList.remove('active'));
+    }
+
+    function ampliarImagen(src) {
+      document.getElementById('imagen-ampliada').src = src;
+      document.getElementById('lightbox').style.display = 'flex';
+    }
+
+    function cerrarLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+
+    window.onload = function() {
+      mostrarInicio();
+    };
+  </script>
+
+</body>
+</html>
