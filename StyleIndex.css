@@ -1,0 +1,238 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000000; /* negro puro */
+  color: #f1f1f1;
+  line-height: 1.6;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Encabezado */
+header {
+  background-color: #000;
+  color: #FFD700;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 4px solid #FFD700;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/* Pantalla inicial centrada con flexbox */
+.pantalla-inicial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centra vertical */
+  align-items: center;     /* centra horizontal */
+  height: calc(100vh - 88px); /* altura total menos header aprox */
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-inicial {
+  width: 300px; /* tamaño del logo */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Botón con estilo igual a botones categorías */
+.boton-entrar, .botones-categorias button {
+  background-color: #FFD700;
+  color: #121212;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.boton-entrar:hover, .botones-categorias button:hover {
+  background-color: #e6c200;
+}
+
+/* Sección catálogo */
+.catalogo {
+  padding: 40px 20px;
+  text-align: center;
+  display: none; /* oculta al inicio */
+}
+
+.catalogo h2 {
+  color: #FFD700;
+  margin-bottom: 30px;
+}
+
+.botones-categorias {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.botones-categorias button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+}
+
+/* Categorías */
+.categoria {
+  margin-bottom: 50px;
+  text-align: center;
+  display: none; /* oculta todas al inicio */
+}
+
+.categoria.active {
+  display: block; /* muestra la categoría activa */
+}
+
+.categoria h3 {
+  color: #FFD700;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.producto {
+  display: inline-block;
+  width: 280px;
+  background-color: #1a1a1a;
+  margin: 15px;
+  border: 1px solid #FFD700;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(255, 215, 0, 0.1);
+  vertical-align: top;
+}
+
+.producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.producto h4 {
+  color: #FFD700;
+  margin: 10px 0 5px 0;
+}
+
+.producto p {
+  padding: 0 10px 15px;
+  color: #ddd;
+}
+
+/* Sección contacto */
+.contacto {
+  padding: 40px 20px;
+  background-color: #1f1f1f;
+  color: #ccc;
+  text-align: center;
+  display: none; /* oculta al inicio */
+}
+
+.contacto h2 {
+  color: #FFD700;
+  margin-bottom: 20px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #000;
+  color: #888;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #FFD700;
+  display: none; /* oculta al inicio */
+}
+
+/* Botón para regresar */
+.boton-regresar {
+  background-color: #FFD700;
+  color: #121212;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 20px auto;
+  display: block;
+  transition: background-color 0.3s;
+  max-width: 200px;
+  text-align: center;
+}
+
+.boton-regresar:hover {
+  background-color: #e6c200;
+}
+
+/* Lightbox mejorado */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  border: 4px solid #FFD700;
+  border-radius: 10px;
+  cursor: default;
+}
+
+.cerrar-lightbox {
+  color: #FFD700;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+
+/* Mejora botones para celular */
+.botones-categorias button {
+  padding: 14px 22px;
+  margin: 8px;
+  font-size: 1.1em;
+}
+
+.redes-sociales {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.redes-sociales a {
+  font-size: 2.2em;
+  color: #FFD700;
+  text-decoration: none;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.redes-sociales a:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}
